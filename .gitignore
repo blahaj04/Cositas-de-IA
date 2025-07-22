@@ -7,7 +7,7 @@ EntornoPracticas/
 
 # Configuración de VS Code
 .vscode/
-
+.code-workspace
 # Archivos de Jupyter temporales
 .ipynb_checkpoints/
 
