@@ -1,7 +1,10 @@
 # ⛔ Ignorar entornos virtuales
-EntornoPracticas/
-.venv/
-venv/
+EntornoPracticas/include
+EntornoPracticas/lib
+EntornoPracticas/etc
+EntornoPracticas/Scripts
+EntornoPracticas/share
+EntornoPracticas/pyvenv.cfg
 
 # ⛔ Ignorar archivos de sistema
 __pycache__/
