@@ -1,47 +1,23 @@
-# Entornos virtuales
-venv/
-env/
-.venv/
-.entornoPracticas/
+# ⛔ Ignorar entornos virtuales
 EntornoPracticas/
+.venv/
+venv/
 
-# Configuración de VS Code
-.vscode/
-cositas de ia.code-workspace
-# Archivos de Jupyter temporales
-.ipynb_checkpoints/
-
-# Archivos Python temporales / caché
+# ⛔ Ignorar archivos de sistema
 __pycache__/
 *.py[cod]
 *.so
-
-# Archivos de logs y bases temporales
-*.log
-*.sqlite3
-
-# Archivos de entorno
-.env
-*.env
-
-# Archivos de sistema / basura
-.DS_Store
-Thumbs.db
-
-# Dependencias compiladas
-*.egg-info/
 *.egg
-*.pyd
-*.dll
-*.exe
+*.egg-info/
+*.log
 
-# Modelos entrenados / data pesados (opcional)
-models/
-data/
-datasets/
+# ⛔ Ignorar temporales de Jupyter
+.ipynb_checkpoints/
 
-# Archivos de backup
-*~
-*.bak
-*.tmp
+# ⛔ Ignorar archivos de VS Code
+.vscode/
+*.code-workspace
 
+# ✅ ¡NO ignores esto!
+!requirements.txt
+!*.ipynb
