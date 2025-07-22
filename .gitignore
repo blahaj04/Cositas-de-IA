@@ -1,0 +1,46 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.entornoPracticas/
+EntornoPracticas/
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos de Jupyter temporales
+.ipynb_checkpoints/
+
+# Archivos Python temporales / caché
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos de logs y bases temporales
+*.log
+*.sqlite3
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de sistema / basura
+.DS_Store
+Thumbs.db
+
+# Dependencias compiladas
+*.egg-info/
+*.egg
+*.pyd
+*.dll
+*.exe
+
+# Modelos entrenados / data pesados (opcional)
+models/
+data/
+datasets/
+
+# Archivos de backup
+*~
+*.bak
+*.tmp
