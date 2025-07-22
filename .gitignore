@@ -7,7 +7,7 @@ EntornoPracticas/
 
 # Configuración de VS Code
 .vscode/
-.code-workspace
+cositas de ia.code-workspace
 # Archivos de Jupyter temporales
 .ipynb_checkpoints/
 
@@ -44,4 +44,4 @@ datasets/
 *~
 *.bak
 *.tmp
-cositas de ia.code-workspace
+
